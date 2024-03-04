@@ -109,7 +109,7 @@ parameters = initialize_parameter_bot()
 
 # Initialize the session_state if it doesn't exist
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [{"role": "assistant", "content": "Halo, aku Virtual Assistant yang akan membantumu memberikan informasi tentang 'SAP S/4HANA Cloud Public Edition Business Scope Overview - 2402'"}]
+    st.session_state["messages"] = [{"role": "assistant", "content": "Halo, aku Virtual Assistant yang akan membantumu memberikan informasi tentang kebijakan di Metrodata'"}]
 
 # Display existing chat messages
 for msg in st.session_state.messages:
